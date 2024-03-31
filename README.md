@@ -114,5 +114,8 @@ Write about prompt engineering and the syntax for posting the web-request
 
 #Guiding how to use the code notebook
 
-#References
+# References
+
+1.  https://github.com/AITwinMinds/Ollama-in-Google-Colab
+2. https://github.com/rahulnyk/knowledge_graph.git
 
