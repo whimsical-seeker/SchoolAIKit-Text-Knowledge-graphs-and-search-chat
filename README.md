@@ -47,6 +47,20 @@ Please note that
 4. Remove special characters strip unnecessary spaces
 5. Glive Embedding
 
+# Tech Framework
+
+Ollama: Installed from https://ollama.ai
+
+Zephyr: Zephyr beta is a fine-tuned  version of mistral model that was trained on on a mix of publicly available, synthetic datasets.
+source: https://ollama.com/library/zephyr (Source:HuggingFaceH4/zephyr-7b-beta)
+
+PyVis a python library for plotting the knowledge graph 
+
+Networkx python library for handling graphs
+
+
+
+
 
 # Feature Engineering in NLP
 
