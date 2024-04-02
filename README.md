@@ -1,7 +1,9 @@
 # SchoolAIKit-Text-Knowledge-graphs-and-search-chat
-# Motivation behind the project:
+# Motivation
+The motivation behind the SchoolAIKit project is to develop a knowledge graph from the text corpus of Physics, Maths, and Chemistry curriculums from grades 8 to 12 in CBSE. The objective is to establish a comprehensive knowledge repository by exploring the relationships between entities across different disciplines. This tool aims to facilitate cross-learning between disciplines among students and enhance their understanding of various subjects. It addresses the challenge highlighted by a mathematician regarding the failure to convey the beauty of studying geometry, conic sections, etc. (give the link) thereby enabling students to engage with a GPT or chatbot operating within certain boundaries with the assistance of the knowledge graph.
 
 The motivation behind the project is to create a knowledge graph from the text corpus of Physics, Maths and Chemistry curriculum from 8 to 12 in CBSE. The idea is to create a knowledge repostiory by exploring the relationshp between the entities that are addressed under different disciplines. This tool will be helpful in encouraging students to appreciate cross-learning. This reminds me of a gripe from a mathematician who passionately talks about how we are failing to convey the beauty of studying feometry, ellipse etc. More from this article.  This is to enable students to with a GPT or chatbot that operates within certain boundaries and KG  will be helful in guiding the chatbot.
+
 
 Take a node on thermodynamics and expand further:
 
@@ -9,15 +11,20 @@ Take a node on thermodynamics and expand further:
 From the knowledge graph h it can be deciphered below that the conic sections (bring relationship through connections). How tiying with these ideas led to bigger questions related to planetary motions etc.
 
 
-The generations of hand me down knowlegde between the scientists are explored in this graph
+The generations of hand me down knowledge between the scientists are explored in this graph
 
 
 The notebook text pre -processing simply deals with the broad text corpus processing steps andembedding short phrases extracted across the books. Steps taken are as follow.
 
 "graph_gen_nb.ipnb"
 
+Take a Node on Thermodynamics and Expand Further:
+From the knowledge graph, it becomes evident that conic sections are intricately connected to thermodynamics. Exploring these connections leads to broader questions related to planetary motions and other scientific phenomena. Additionally, the knowledge graph delves into the generations of handed-down knowledge among scientists.
+
+
+
 Basically would like to connect ideas from different levels of classes and give comprehensive picture of the project.
-These are the following steos that are followed:
+These are the following steps that are followed:
 1. Using Langchain to parse text from the books stored in the pdf format -Recursively split the text according to character length and define overlapping margins
 2. Cleaning the text corpus. Detecting the presence of keywords through Regex to remove "questions" and "activity" related content
 3. Scan the text for stopwords and remove the lines which have only variable names or figure names which would add noise to the system through word tokens .
@@ -26,18 +33,15 @@ These are the following steos that are followed:
 6. Instantiate a graph object and construct a graph
 7. Construct and display a graph using Pyvis and seaborn.
 
-Next steps:
+Next Steps:
+The following enhancements are planned for the project:
 
-1. Improve the enitity recognition and reduce terns like closed curve,positive origin etc.
-2. Connect the knowledge graph with external Wikipedia KG
-3. Create a chatbot 
+Improve entity recognition and reduce ambiguous terms.
+Integrate the knowledge graph with external Wikipedia knowledge graphs.
+Develop a chatbot for interactive learning.
 
 The open source community has been helpful have been able to rely on github repositories and open licences as given below (rahulnayak, MIT license)
 
-
-Installation guides:
-1. Ollama set up 
-2. 
 
 
 Please note that 
@@ -49,17 +53,14 @@ Please note that
 
 # Tech Framework
 
-Ollama: Installed from https://ollama.ai
+1. Ollama: Installed from https://ollama.ai
 
-Zephyr: Zephyr beta is a fine-tuned  version of mistral model that was trained on on a mix of publicly available, synthetic datasets.
+2. Zephyr: Zephyr beta is a fine-tuned  version of mistral model that was trained on on a mix of publicly available, synthetic datasets.
 source: https://ollama.com/library/zephyr (Source:HuggingFaceH4/zephyr-7b-beta)
 
-PyVis a python library for plotting the knowledge graph 
+3. PyVis a python library for plotting the knowledge graph 
 
-Networkx python library for handling graphs
-
-
-
+4. Networkx python library for handling graphs
 
 
 # Feature Engineering in NLP
@@ -121,10 +122,40 @@ Gradient descent - decide the direction based on the sign of the derivative. The
 
 # Knowledge Graph 
 
-#Prompting through Ollama and language models
-Running LLMs locally.
+Knowledge graphs (KGs) organise data from multiple sources, capture information about entities of interest in a given domain or task (like people, places or 
+events), and forge connections between them. 
+
+The term ‘knowledge graph’ has been introduced by Google in 2012 to refer to its general-purpose knowledge base, though similar approaches have been around since the beginning of modern AI in areas such as knowledge representation, knowledge acquisition, natural language processing, ontology engineering and the semantic web. Today, KGs are used extensively in anything from search engines and chatbots to product recommenders and autonomous systems.[]
+
+source: https://www.turing.ac.uk/research/interest-groups/knowledge-graphs
+
+# Prompting LLMs for entity and context
+Ollama helps in running open-source large language models, such as Llama 2,Mistral locally. It bundles model weights, configuration, and data into a single package. It optimizes configuration including GPU usage.[ref]
+All the loaded models are run locally and available on the port 11434. The web request is placed along with the payload and URL. The actual values of system and prompt depends would be specific to the context.
+
+      payload = {
+            "model": "zephyr",
+            "temperature": 0.6,
+            "stream": False, #return response as a single batch or streamed continuously
+            "messages": [
+                {"role": "system", "content":system},
+                {"role": "user", "content": prompt}
+            ]
+        }
+
+
+The "role": "system" message typically provides system-level instructions or context.
+The "role": "user" message represents the user’s input or prompt.
+
+source: https://python.langchain.com/docs/integrations/llms/ollama#:~:text=Ollama%20allows%20you%20to%20run,configuration%20details%2C%20including%20GPU%20usage.
 
 Write about prompt engineering and the syntax for posting the web-request 
+
+Prompt engineering involves crafting clear and effective instructions or queries for language models. Steps include - clear instructions, persona adoption and decomposing complex tasks.
+
+# Reducing the noise in the nodes through avoiding repetition and removing unnecessary ones
+
+
 
 #Guiding how to use the code notebook
 
