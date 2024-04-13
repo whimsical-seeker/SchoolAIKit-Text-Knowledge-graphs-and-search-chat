@@ -2,26 +2,6 @@
 # Motivation
 The motivation behind the SchoolAIKit project is to develop a knowledge graph from the text corpus of Physics, Maths, and Chemistry curriculums from grades 8 to 12 in CBSE. The objective is to establish a comprehensive knowledge repository by exploring the relationships between entities across different disciplines. This tool aims to facilitate cross-learning between disciplines among students and enhance their understanding of various subjects. It addresses the challenge highlighted by a mathematician regarding the failure to convey the beauty of studying geometry, conic sections, etc. (give the link) thereby enabling students to engage with a GPT or chatbot operating within certain boundaries with the assistance of the knowledge graph.
 
-The motivation behind the project is to create a knowledge graph from the text corpus of Physics, Maths and Chemistry curriculum from 8 to 12 in CBSE. The idea is to create a knowledge repostiory by exploring the relationshp between the entities that are addressed under different disciplines. This tool will be helpful in encouraging students to appreciate cross-learning. This reminds me of a gripe from a mathematician who passionately talks about how we are failing to convey the beauty of studying feometry, ellipse etc. More from this article.  This is to enable students to with a GPT or chatbot that operates within certain boundaries and KG  will be helful in guiding the chatbot.
-
-
-Take a node on thermodynamics and expand further:
-
-
-From the knowledge graph h it can be deciphered below that the conic sections (bring relationship through connections). How tiying with these ideas led to bigger questions related to planetary motions etc.
-
-
-The generations of hand me down knowledge between the scientists are explored in this graph
-
-
-The notebook text pre -processing simply deals with the broad text corpus processing steps andembedding short phrases extracted across the books. Steps taken are as follow.
-
-"graph_gen_nb.ipnb"
-
-Take a Node on Thermodynamics and Expand Further:
-From the knowledge graph, it becomes evident that conic sections are intricately connected to thermodynamics. Exploring these connections leads to broader questions related to planetary motions and other scientific phenomena. Additionally, the knowledge graph delves into the generations of handed-down knowledge among scientists.
-
-
 
 Basically would like to connect ideas from different levels of classes and give comprehensive picture of the project.
 These are the following steps that are followed:
@@ -149,18 +129,17 @@ The "role": "user" message represents the user’s input or prompt.
 
 source: https://python.langchain.com/docs/integrations/llms/ollama#:~:text=Ollama%20allows%20you%20to%20run,configuration%20details%2C%20including%20GPU%20usage.
 
-Write about prompt engineering and the syntax for posting the web-request 
+
 
 Prompt engineering involves crafting clear and effective instructions or queries for language models. Steps include - clear instructions, persona adoption and decomposing complex tasks.
 
-# Reducing the noise in the nodes through avoiding repetition and removing unnecessary ones
-
-
-
-#Guiding how to use the code notebook
-
 # References
 
-1.  https://github.com/AITwinMinds/Ollama-in-Google-Colab
-2. https://github.com/rahulnyk/knowledge_graph.git
+1. https://support.google.com/knowledgepanel
+2. https://github.com/AITwinMinds/Ollama-in-Google-Colab
+3. https://github.com/rahulnyk/knowledge_graph.git
+4. https://neo4j.com/docs/ogm-manual/current/reference/
+5. https://neo4j.com/why-graph-databases/
+6. https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+   
 
