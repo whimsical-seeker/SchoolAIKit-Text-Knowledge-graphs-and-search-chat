@@ -1,9 +1,0 @@
-
-pip
-unstructured
-langchain
-unstructured[pdf] --user
-pyvis
-seaborn
-gensim
-ollama
