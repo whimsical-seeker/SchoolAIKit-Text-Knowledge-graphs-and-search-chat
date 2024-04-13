@@ -2,6 +2,7 @@
 # Motivation
 The motivation behind the SchoolAIKit project is to develop a knowledge graph from the text corpus of Physics, Maths, and Chemistry curriculums from grades 8 to 12 in CBSE. The objective is to establish a comprehensive knowledge repository by exploring the relationships between entities across different disciplines. This tool aims to facilitate cross-learning between disciplines among students and enhance their understanding of various subjects. It addresses the challenge highlighted by a mathematician regarding the failure to convey the beauty of studying geometry, conic sections, etc. (give the link) thereby enabling students to engage with a GPT or chatbot operating within certain boundaries with the assistance of the knowledge graph.
 
+# Methodology
 
 Basically would like to connect ideas from different levels of classes and give comprehensive picture of the project.
 These are the following steps that are followed:
@@ -13,23 +14,6 @@ These are the following steps that are followed:
 6. Instantiate a graph object and construct a graph
 7. Construct and display a graph using Pyvis and seaborn.
 
-Next Steps:
-The following enhancements are planned for the project:
-
-Improve entity recognition and reduce ambiguous terms.
-Integrate the knowledge graph with external Wikipedia knowledge graphs.
-Develop a chatbot for interactive learning.
-
-The open source community has been helpful have been able to rely on github repositories and open licences as given below (rahulnayak, MIT license)
-
-
-
-Please note that 
-1. Text reading
-2. Cleaning -removal of stopwords, le
-3. Scan the text for stopwords and remove the lines which have only variable names or figure names which would add noise to the system through word tokens .
-4. Remove special characters strip unnecessary spaces
-5. Glive Embedding
 
 # Tech Framework
 
@@ -129,9 +113,18 @@ The "role": "user" message represents the user’s input or prompt.
 
 source: https://python.langchain.com/docs/integrations/llms/ollama#:~:text=Ollama%20allows%20you%20to%20run,configuration%20details%2C%20including%20GPU%20usage.
 
-
-
 Prompt engineering involves crafting clear and effective instructions or queries for language models. Steps include - clear instructions, persona adoption and decomposing complex tasks.
+
+
+## Next Steps:
+The following enhancements are planned for the project:
+1. Improve entity recognition and reduce ambiguous terms.
+2. Integrate the knowledge graph with external Wikipedia knowledge graphs.
+3. Develop a chatbot for interactive learning.
+
+The open source community has been helpful have been able to rely on github repositories and open licences as given below (rahulnayak, MIT license)
+
+
 
 # References
 
