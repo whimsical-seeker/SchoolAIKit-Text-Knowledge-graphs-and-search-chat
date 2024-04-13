@@ -2,6 +2,11 @@
 # Motivation
 The motivation behind the SchoolAIKit project is to develop a knowledge graph from the text corpus of Physics, Maths, and Chemistry curriculums from grades 8 to 12 in CBSE. The objective is to establish a comprehensive knowledge repository by exploring the relationships between entities across different disciplines. This tool aims to facilitate cross-learning between disciplines among students and enhance their understanding of various subjects. It addresses the challenge highlighted by a mathematician regarding the failure to convey the beauty of studying geometry, conic sections, etc. (give the link) thereby enabling students to engage with a GPT or chatbot operating within certain boundaries with the assistance of the knowledge graph.
 
+![image](https://github.com/whimsical-seeker/SchoolAIKit-Text-Knowledge-graphs-and-search-chat/assets/55318342/5f290b11-5178-451d-90d7-82514794de0a)
+
+Source: graph visualised on Neo4j browser by the author
+
+
 # Methodology
 
 Basically would like to connect ideas from different levels of classes and give comprehensive picture of the project.
