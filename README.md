@@ -4,8 +4,11 @@ The motivation behind the SchoolAIKit project is to develop a knowledge graph fr
 
 ![image](https://github.com/whimsical-seeker/SchoolAIKit-Text-Knowledge-graphs-and-search-chat/assets/55318342/5f290b11-5178-451d-90d7-82514794de0a)
 
-Source: graph visualised on Neo4j browser by the author
+Source: Graph visualised on Neo4j browser by the author
 
+![image](https://github.com/whimsical-seeker/SchoolAIKit-Text-Knowledge-graphs-and-search-chat/assets/55318342/6a025809-8eb7-44f3-a804-352e04019327)
+
+Source: Graph visualised using Pvis and connection weights
 
 # Methodology
 
@@ -99,7 +102,7 @@ The term ‘knowledge graph’ has been introduced by Google in 2012 to refer to
 source: https://www.turing.ac.uk/research/interest-groups/knowledge-graphs
 
 # Prompting LLMs for entity and context
-Ollama helps in running open-source large language models, such as Llama 2,Mistral locally. It bundles model weights, configuration, and data into a single package. It optimizes configuration including GPU usage.[ref]
+Ollama helps in running open-source large language models, such as Llama 2,Mistral locally. It bundles model weights, configuration, and data into a single package. It optimizes configuration including GPU usage.
 All the loaded models are run locally and available on the port 11434. The web request is placed along with the payload and URL. The actual values of system and prompt depends would be specific to the context.
 
       payload = {
