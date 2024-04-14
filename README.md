@@ -97,7 +97,7 @@ Gradient descent - decide the direction based on the sign of the derivative. The
 Knowledge graphs (KGs) organise data from multiple sources, capture information about entities of interest in a given domain or task (like people, places or 
 events), and forge connections between them. 
 
-The term ‘knowledge graph’ has been introduced by Google in 2012 to refer to its general-purpose knowledge base, though similar approaches have been around since the beginning of modern AI in areas such as knowledge representation, knowledge acquisition, natural language processing, ontology engineering and the semantic web. Today, KGs are used extensively in anything from search engines and chatbots to product recommenders and autonomous systems.[]
+The term ‘knowledge graph’ has been introduced by Google in 2012 to refer to its general-purpose knowledge base, though similar approaches have been around since the beginning of modern AI in areas such as knowledge representation, knowledge acquisition, natural language processing, ontology engineering and the semantic web. Today, KGs are used extensively in anything from search engines and chatbots to product recommenders and autonomous systems.
 
 source: https://www.turing.ac.uk/research/interest-groups/knowledge-graphs
 
