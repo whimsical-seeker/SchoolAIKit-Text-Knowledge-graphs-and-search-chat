@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+
+pip
+unstructured
+langchain
+unstructured[pdf] --user
+pyvis
+seaborn
+gensim
+ollama
+=======
+
+pip
+unstructured
+langchain
+unstructured[pdf] --user
+pyvis
+seaborn
+gensim
+ollama
+>>>>>>> 54d46848ee2b9fc89efe7777a15e3a56edb621c2
