@@ -1,0 +1,13 @@
+*.env
+*.npy
+*.h5
+*.pkl
+*.csv
+*.pdf
+*.docx
+*.html
+*.toml
+Neo4j_exp/
+Archive/
+readme_pending.txt
+
