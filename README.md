@@ -14,13 +14,13 @@ Source: Graph visualised using Pvis and connection weights
 
 Basically would like to connect ideas from different levels of classes and give comprehensive picture of the project.
 These are the following steps that are followed:
-1. Using Langchain to parse text from the books stored in the pdf format -Recursively split the text according to character length and define overlapping margins
-2. Cleaning the text corpus. Detecting the presence of keywords through Regex to remove "questions" and "activity" related content
+1. Using Langchain to parse text from the books stored in the pdf format -Recursively split the text according to character length and define overlapping margins.
+2. Cleaning the text corpus. Detecting the presence of keywords through Regex to remove "questions" and "activity" related content.
 3. Scan the text for stopwords and remove the lines which have only variable names or figure names which would add noise to the system through word tokens .
 4. Remove special characters strip unnecessary spaces
-5. Engineer the prompts for the LLM Zephyr to extract the entities and relationship from the corpus
-6. Instantiate a graph object and construct a graph
-7. Construct and display a graph using Pyvis and seaborn.
+5. Engineer the system prompt for the LLM Zephyr to extract the entities and relationship from the corpus.
+6. Instantiate a graph object and construct a graph.
+7. Construct and display a graph using Neo4j,Pyvis and seaborn.
 
 
 # Tech Framework
