@@ -30,9 +30,11 @@ These are the following steps that are followed:
 2. Zephyr: Zephyr beta is a fine-tuned  version of mistral model that was trained on on a mix of publicly available, synthetic datasets.
 source: https://ollama.com/library/zephyr (Source:HuggingFaceH4/zephyr-7b-beta)
 
-3. PyVis a python library for plotting the knowledge graph 
+3. Neo4j desktop for non relational DBMS and cypher queries (https://neo4j.com/docs/desktop-manual/current/)
 
-4. Networkx python library for handling graphs
+4. PyVis a python library for plotting the knowledge graph 
+
+5. Networkx python library for handling graphs
 
 
 # Feature Engineering in NLP
