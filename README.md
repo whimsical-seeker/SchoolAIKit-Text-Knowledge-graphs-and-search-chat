@@ -4,7 +4,7 @@
 
 The SchoolAIKit project is all about creating a smart tool that connects the dots between what you learn in Physics, Maths, and Chemistry from grades 8 to 12 in CBSE. It's like building a big map of knowledge by looking at how things in different subjects relate to each other. This way, students can learn from one subject and apply it to another, making it easier to understand everything.
 
-Paul Lockhart once said in his book "A Mathematician's Lament" that just memorizing rules in math takes away the fun of exploring and being creative. It's like trying to see the whole picture through a tiny window.
+Paul Lockhart once said in his book "A Mathematician's Lament" that just memorizing rules in math takes away the fun of exploring and being creative. It's like trying to see the whole picture through a tiny window.He likens this to teaching music by focusing solely on notation and theory, without ever letting students actually listen to or play music.
 
 Back in ancient times, a guy named Apollonius figured out cool stuff about shapes like circles, ellipses, parabolas, and hyperbolas. Later on, smart folks like Galileo and Kepler used his ideas to understand how things move through space.
 
