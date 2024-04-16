@@ -1,6 +1,14 @@
 # SchoolAIKit-Text-Knowledge-graphs-and-search-chat
+
 # Motivation
-The motivation behind the SchoolAIKit project is to develop a knowledge graph from the text corpus of Physics, Maths, and Chemistry curriculums from grades 8 to 12 in CBSE. The objective is to establish a comprehensive knowledge repository by exploring the relationships between entities across different disciplines. This tool aims to facilitate cross-learning between disciplines among students and enhance their understanding of various subjects. It addresses the challenge highlighted by a mathematician regarding the failure to convey the beauty of studying geometry, conic sections, etc. (give the link) thereby enabling students to engage with a GPT or chatbot operating within certain boundaries with the assistance of the knowledge graph.
+
+The SchoolAIKit project is all about creating a smart tool that connects the dots between what you learn in Physics, Maths, and Chemistry from grades 8 to 12 in CBSE. It's like building a big map of knowledge by looking at how things in different subjects relate to each other. This way, students can learn from one subject and apply it to another, making it easier to understand everything.
+
+Paul Lockhart once said in his book "A Mathematician's Lament" that just memorizing rules in math takes away the fun of exploring and being creative. It's like trying to see the whole picture through a tiny window.
+
+Back in ancient times, a guy named Apollonius figured out cool stuff about shapes like circles, ellipses, parabolas, and hyperbolas. Later on, smart folks like Galileo and Kepler used his ideas to understand how things move through space.
+
+So, the idea behind this project is to make learning more exciting and connected. It's not just about memorizing facts, but about seeing how everything fits together like puzzle pieces. This way, you can explore and discover new things on your own, which is what makes learning really cool!
 
 ![image](https://github.com/whimsical-seeker/SchoolAIKit-Text-Knowledge-graphs-and-search-chat/assets/55318342/5f290b11-5178-451d-90d7-82514794de0a)
 
