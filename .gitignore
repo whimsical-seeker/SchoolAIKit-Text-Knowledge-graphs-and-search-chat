@@ -7,7 +7,8 @@
 *.docx
 *.html
 *.toml
+*.txt
 Neo4j_exp/
 Archive/
-readme_pending.txt
+
 
