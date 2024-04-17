@@ -88,22 +88,6 @@ The window shifting is performed to learn from
 
 The goal is to learn the embedding matrix 
 
-# Model training in NLP using DNN
-
-The activation function is used to prevent linearity. Without the activation function, the output will be a linear combination of inputs and bias from the previous layer.
-
-Used in layers in between ReLU, Sigmoid (link), tanh 
-
-The output of Softmax is probability.
-
-If the difference between the actual and predicted is high that means the 
-
-## Cost Functions
-
-MSE, cross-entropy (calculate the difference between probability distribution)
-
-Gradient descent - decide the direction based on the sign of the derivative. The step size determines how long steps are taken to traverse.
-
 # Knowledge Graph 
 
 Knowledge graphs (KGs) organise data from multiple sources, capture information about entities of interest in a given domain or task (like people, places or 
