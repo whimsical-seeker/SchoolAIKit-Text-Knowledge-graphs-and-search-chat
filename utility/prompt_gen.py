@@ -1,6 +1,6 @@
 
 
-#Derived from the client and prompts script of **rahulnyk/knowledge_graph** and modified
+#Derived from **rahulnyk/knowledge_graph** and modified
 import sys
 from yachalk import chalk #might have to add reference here test and check
 import os
