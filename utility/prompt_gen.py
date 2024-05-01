@@ -1,6 +1,4 @@
 
-
-#Derived from **rahulnyk/knowledge_graph** and modified
 import sys
 from yachalk import chalk #might have to add reference here test and check
 import os
@@ -65,7 +63,8 @@ def generate( model_name=None,prompt=None, system=None, template=None, context=N
 def graphPrompt(input: str, metadata={}, model="mistral-openorca:latest"):
     if model == None:
         model = "zephyr"#"mistral-openorca:latest"
-
+    
+    #Derived from **rahulnyk/knowledge_graph** and modified
     SYS_PROMPT = (
     "You are a network graph maker who extracts terms and their relations from "
     "You are provided with a context chunk (delimited by ```) Your task is to extract the ontology "
