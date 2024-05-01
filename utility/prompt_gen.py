@@ -23,9 +23,7 @@ def generate( model_name=None,prompt=None, system=None, template=None, context=N
             ]
         }
 
-        
-        # Remove keys with None values
-      #  payload = {k: v for k, v in payload.items() if v is not None}
+
         
         with requests.post(url, json=payload, stream=True) as response:
             response.raise_for_status()
