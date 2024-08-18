@@ -1,0 +1,2 @@
+CoT prompting: https://www.reddit.com/r/ChatGPT/comments/13cbohw/how_exactly_does_chain_of_thought_prompting_work/
+Mistral inference: https://github.com/mistralai/mistral-inference?tab=readme-ov-file
